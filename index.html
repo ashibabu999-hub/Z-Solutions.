@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z-solutions - Money Exchange Management System</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1e3a8a 0%, #9333ea 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+        .container {
+            text-align: center;
+            padding: 2rem;
+            max-width: 800px;
+        }
+        .logo {
+            font-size: 4rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        .tagline {
+            font-size: 1.5rem;
+            color: #f59e0b;
+            margin-bottom: 2rem;
+        }
+        .message {
+            font-size: 1.2rem;
+            margin: 2rem 0;
+            padding: 2rem;
+            background: rgba(255,255,255,0.1);
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+        }
+        .btn {
+            display: inline-block;
+            padding: 1rem 2rem;
+            margin: 0.5rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: transform 0.3s;
+        }
+        .btn:hover { transform: scale(1.05); }
+        .btn-admin { background: #1e3a8a; color: white; }
+        .btn-customer { background: #9333ea; color: white; }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+        .feature {
+            background: rgba(255,255,255,0.1);
+            padding: 1rem;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">Z-solutions</div>
+        <div class="tagline">Smart Exchange, Secure Solutions</div>
+        
+        <div class="message">
+            <h2>🎉 Deployment Successful!</h2>
+            <p>Your Money Exchange Management System is live on GitHub Pages</p>
+        </div>
+
+        <div>
+            <a href="#" class="btn btn-admin" onclick="alert('Admin Login: Use your credentials to access the admin panel')">Admin Login</a>
+            <a href="#" class="btn btn-customer" onclick="alert('Customer Login: Use your credentials to access customer portal')">Customer Login</a>
+        </div>
+
+        <div class="features">
+            <div class="feature">✅ 4 User Roles</div>
+            <div class="feature">✅ Complete Dashboard</div>
+            <div class="feature">✅ File Upload System</div>
+            <div class="feature">✅ Daily/Monthly Reports</div>
+            <div class="feature">✅ Email Notifications</div>
+            <div class="feature">✅ Multi-Currency</div>
+        </div>
+
+        <div class="message" style="margin-top: 2rem;">
+            <p>📧 Contact: ashibabu999@gmail.com</p>
+            <p>🌐 Repository: github.com/ashibabu999-hub/Z-Solutions</p>
+        </div>
+    </div>
+</body>
+</html>
